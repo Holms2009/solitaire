@@ -17,12 +17,10 @@
     "jsx": "react-jsx",
     "baseUrl": "src",
     "paths": {
-      "@app/*": ["app/*"],
+      "@app": ["app"],
       "@styles/*": ["shared/styles/*"],
       "@assets/*": ["shared/assets/*"],
-      "@entities": ["entities"],
-      "@features": ["features"],
-      "@pages": ["pages"],
+      "@components": ["components"],
       "@ui": ["shared/ui"],
       "@shared/*": ["shared/*"],
       "@widgets": ["widgets"]

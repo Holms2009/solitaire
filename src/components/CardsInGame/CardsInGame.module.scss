@@ -1,0 +1,28 @@
+.wrapper {
+  margin-top: 50rem;
+  height    : 100%;
+
+  display        : flex;
+  justify-content: space-between;
+  align-items    : flex-start;
+}
+
+.cardsRow {
+  width : 165rem;
+  height: 100%;
+
+  display       : flex;
+  flex-direction: column;
+
+  position: relative;
+
+  &>div {
+    position: absolute;
+
+    @for $i from 1 through 20 {
+      &:nth-child(#{$i}) {
+        top: 25rem * $i;
+      }
+    }
+  }
+}

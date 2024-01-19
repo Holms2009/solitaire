@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+}
+
+.stack,
+.activeCard {
+  height      : 250rem;
+  aspect-ratio: 2 / 3;
+}
+
+.stack {
+  cursor: pointer;
+}
+
+.stack_empty {
+  background: none;
+}
+
+.activeCard {
+  margin-left: 15rem;
+}
